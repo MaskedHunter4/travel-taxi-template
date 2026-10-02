@@ -2,13 +2,13 @@
 // CLIENT CONFIG — edit this file to customize each new website
 // ============================================================
 const SITE_CONFIG = {
-  brandName: "Your Travel Co.",
-  tagline: "Premium Travel & Taxi Services",
-  logoText: "YT",
-  logoImage: "", // Example: "assets/logo.png"
+  brandName: "THE LAZARUS TRAVELMATE",
+  tagline: "Pack your dreams. We will handle the rest.",
+  logoText: "LT",
+  logoImage: "lazarus-travelmate-logo-mark.png",
 
-  phone: "+91 90000 00000",
-  whatsapp: "919000000000",
+  phone: "+91 8137832467",
+  whatsapp: "918137832467",
   email: "hello@yourtravelco.com",
   location: "Kerala, India",
   instagram: "#",
