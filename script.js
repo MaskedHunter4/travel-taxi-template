@@ -6,7 +6,9 @@ document.documentElement.style.setProperty("--primary", c.colors.primary);
 const $ = id => document.getElementById(id);
 $("brandName").textContent = c.brandName;
 $("brandTagline").textContent = c.tagline;
-$("brandMark").textContent = c.logoText;
+$("brandMark").innerHTML = c.logoImage
+  ? `<img src="${c.logoImage}" alt="${c.brandName} logo">`
+  : c.logoText;
 $("footerBrand").textContent = c.brandName;
 $("year").textContent = new Date().getFullYear();
 
