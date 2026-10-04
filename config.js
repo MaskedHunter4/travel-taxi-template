@@ -5,7 +5,7 @@ const SITE_CONFIG = {
   brandName: "THE LAZARUS TRAVELMATE",
   tagline: "Pack your dreams. We will handle the rest.",
   logoText: "LT",
-  logoImage: "lazarus-travelmate-logo-mark.png",
+  logoImage: "lazarus-travelmate-approved-logo.png",
 
   phone: "+91 8137832467",
   whatsapp: "918137832467",
