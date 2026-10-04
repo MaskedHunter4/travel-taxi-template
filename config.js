@@ -24,10 +24,10 @@ hero: {
 },
 
 stats: [
-  ["SINCE 2019", "Established"],
-  ["ALL INDIA", "Travel Service"],
-  ["24/7", "Travel Support"],
-  ["4+", "Travel Solutions"]
+  ["2019", "ESTABLISHED"],
+  ["ALL INDIA", "TRAVEL SERVICE"],
+  ["24/7", "TRAVEL SUPPORT"],
+  ["4+", "TRAVEL SOLUTIONS"]
 ],
 
 services: [
