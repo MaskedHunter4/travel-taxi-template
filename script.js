@@ -56,3 +56,30 @@ $("menuBtn").addEventListener("click", () => {
 const mobileStyle = document.createElement("style");
 mobileStyle.textContent = `.nav-links.mobile-open{display:flex;position:absolute;top:76px;left:20px;right:20px;padding:20px;flex-direction:column;background:#10201f;border-radius:14px}.nav-links.mobile-open a{padding:7px 0}`;
 document.head.appendChild(mobileStyle);
+/* ===== SCROLL REVEAL ===== */
+
+const revealItems = document.querySelectorAll(
+  ".section, .service, .review, .contact-card, .cta-inner"
+);
+
+revealItems.forEach(item => {
+  item.classList.add("reveal");
+});
+
+const revealObserver = new IntersectionObserver(
+  entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("show");
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  },
+  {
+    threshold: 0.12
+  }
+);
+
+document.querySelectorAll(".reveal").forEach(item => {
+  revealObserver.observe(item);
+});
