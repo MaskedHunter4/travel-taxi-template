@@ -1,30 +1,26 @@
-// ============================================================
-// CLIENT CONFIG — edit this file to customize each new website
-// ============================================================
-const SITE_CONFIG = {
-  brandName: "THE LAZARUS TRAVELMATE",
-  tagline: "Pack your dreams. We will handle the rest.",
-  logoText: "LT",
-  logoImage: "lazarus-travelmate-approved-logo.png",
+brandName: "THE LAZARUS TRAVELMATE",
+tagline: "Pack your dreams. We will handle the rest.",
+logoText: "LT",
+logoImage: "lazarus-travelmate-approved-logo.png",
 
-  phone: "+91 8137832467",
-  whatsapp: "918137832467",
-  email: "hello@yourtravelco.com",
-  location: "Kerala, India",
-  instagram: "#",
+phone: "+91 8137832467",
+whatsapp: "918137832467",
+email: "hello@yourtravelco.com",
+location: "All India",
+instagram: "#",
 
-  colors: {
-    primary: "#0b5d57",
-    accent: "#d9a441",
-    dark: "#10201f"
-  },
+colors: {
+  primary: "#0b5d57",
+  accent: "#d9a441",
+  dark: "#10201f"
+},
 
-  hero: {
-    eyebrow: "Travel with confidence",
-    title: "Every journey, thoughtfully arranged.",
-    description: "Airport transfers, Kerala tours, outstation trips and comfortable cab rentals with dependable service from pickup to destination.",
-    image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85"
-  },
+hero: {
+  eyebrow: "TRAVEL • TAXI • TOURS",
+  title: "Your Journey, Our Responsibility.",
+  description: "Reliable and comfortable travel solutions for airport transfers, wedding travel, vehicle rentals and customized tours across India.",
+  image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85"
+},
 
   stats: [
     ["10+", "Years Experience"],
