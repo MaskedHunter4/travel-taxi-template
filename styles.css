@@ -689,7 +689,24 @@ footer{
   .footer-inner{
     display:block
   }
+/* ===== SCROLL REVEAL EFFECT ===== */
 
+.reveal {
+  opacity: 0;
+  transform: translateY(35px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Service / review cards appear smoothly */
+.service.reveal,
+.review.reveal {
+  transition-duration: 0.7s;
+}
   .footer-inner span{
     display:block;
     margin:4px 0
