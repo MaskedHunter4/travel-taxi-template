@@ -29,44 +29,32 @@ hero: {
     ["15+", "Travel Options"]
   ],
 
-  services: [
-    {
-      icon: "✈",
-      title: "Airport Transfers",
-      text: "Smooth pickup and drop-off with clear communication and comfortable vehicles.",
-      image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1000&q=80"
-    },
-    {
-      icon: "◈",
-      title: "Kerala Tours",
-      text: "Flexible sightseeing trips designed around your route, pace and travel plans.",
-      image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1000&q=80"
-    },
-    {
-      icon: "🚐",
-      title: "Outstation Trips",
-      text: "Comfortable long-distance journeys for families, groups and private travel.",
-      image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80"
-    },
-    {
-      icon: "✦",
-      title: "Wedding & Events",
-      text: "Elegant guest transport and coordinated travel for special occasions.",
-      image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1000&q=80"
-    },
-    {
-      icon: "☼",
-      title: "Pilgrimage Trips",
-      text: "Planned journeys to destinations across Kerala and South India.",
-      image: "https://images.unsplash.com/photo-1548013146-72479768bada?auto=format&fit=crop&w=1000&q=80"
-    },
-    {
-      icon: "◷",
-      title: "24/7 Cab Service",
-      text: "Early morning, late night or last-minute travel — contact us whenever you need a ride.",
-      image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=1000&q=80"
-    }
-  ],
+services: [
+  {
+    icon: "✈",
+    title: "Airport Taxi Services",
+    text: "Reliable airport pickup and drop services with comfortable vehicles and professional coordination.",
+    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    icon: "♥",
+    title: "Wedding Cars & Drivers",
+    text: "Make your special day smoother with elegant cars and professional chauffeur services.",
+    image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    icon: "🚗",
+    title: "Four-Wheeler Rentals",
+    text: "Choose from a range of four-wheelers for personal trips, family travel and special occasions.",
+    image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    icon: "✦",
+    title: "Customized Tour Packages",
+    text: "Personalized travel packages designed around your destination, schedule and travel preferences.",
+    image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1000&q=80"
+  }
+],
 
   gallery: [
     "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80",
