@@ -1,3 +1,4 @@
+const SITE_CONFIG = {
 brandName: "THE LAZARUS TRAVELMATE",
 tagline: "Pack your dreams. We will handle the rest.",
 logoText: "LT",
