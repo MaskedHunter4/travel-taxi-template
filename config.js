@@ -23,12 +23,12 @@ hero: {
   image: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85"
 },
 
-  stats: [
-    ["10+", "Years Experience"],
-    ["5K+", "Happy Travelers"],
-    ["24/7", "Travel Support"],
-    ["15+", "Travel Options"]
-  ],
+stats: [
+  ["SINCE 2019", "Established"],
+  ["ALL INDIA", "Travel Service"],
+  ["24/7", "Travel Support"],
+  ["4+", "Travel Solutions"]
+],
 
 services: [
   {
