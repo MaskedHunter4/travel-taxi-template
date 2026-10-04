@@ -63,7 +63,7 @@ services: [
     "https://images.unsplash.com/photo-1470214304380-aadaedcfff1b?auto=format&fit=crop&w=1200&q=80",
     "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
-    "https://images.unsplash.com/photo-149478336-7193-149034c05e8f?auto=format&fit=crop&w=1200&q=80"
+    "https://images.unsplash.com/photo-1494783367193-149034c05e8f?auto=format&fit=crop&w=1200&q=80"
   ],
 
   testimonials: [
