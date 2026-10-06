@@ -32,7 +32,7 @@ $("heroDescription").textContent = c.hero.description;
 
 $("heroBg").style.backgroundImage = `url("${c.hero.image}")`;
 
-$("aboutImage").src = c.gallery[0];
+$("aboutImage").src = c.aboutImage;
 
 
 /* =========================================
