@@ -47,7 +47,7 @@ services: [
     icon: "🚗",
     title: "Four-Wheeler Rentals",
     text: "Choose from a range of four-wheelers for personal trips, family travel and special occasions.",
-    image: "https://images.unsplash.com/photo-1500534623283-312aade485b7?auto=format&fit=crop&w=1000&q=80"
+    image: "Glossy Honda at Lazarus Travelmate.png"
   },
   {
     icon: "✦",
