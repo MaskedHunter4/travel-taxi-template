@@ -62,6 +62,8 @@ services: [
   image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=85"
 }
 ],
+  
+aboutImage: "about-photo.jpg",
 
   gallery: [
     "726610547_18131186422537428_2342233915642130346_n.webp",
