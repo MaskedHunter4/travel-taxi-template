@@ -6,9 +6,9 @@ logoImage: "lazarus-travelmate-approved-logo.png",
 
 phone: "+91 8137832467",
 whatsapp: "918137832467",
-email: "hello@yourtravelco.com",
+email: "thelazarustravelmate@gmail.com",
 location: "All India",
-instagram: "#",
+instagram: "https://www.instagram.com/the_lazarus_travelmate/",
 
 colors: {
   primary: "#0b5d57",
