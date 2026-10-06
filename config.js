@@ -41,7 +41,7 @@ services: [
     icon: "♥",
     title: "Wedding Cars & Drivers",
     text: "Make your special day smoother with elegant cars and professional chauffeur services.",
-    image: "WhatsApp Image 2026-10-06 at 12.41.01 AM.jpeg"
+    image: "wedding cars rentals.jpeg"
   },
   {
     icon: "🚗",
