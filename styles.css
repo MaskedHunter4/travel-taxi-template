@@ -453,93 +453,69 @@ a {
    ========================================= */
 
 .why-us {
-  background: #f5f5f1;
+  background: #fbfaf7;
 }
 
 .why-head {
-  margin-bottom: 40px;
+  margin-bottom: 45px;
 }
 
 .why-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
+  gap: 18px;
 }
 
 .why-card {
   position: relative;
-  min-height: 250px;
+  min-height: 270px;
   padding: 30px;
-
-  background: #ffffff;
-
-  border: 1px solid #e5e8e2;
-  border-radius: 20px;
-
+  background: white;
+  border: 1px solid #e5e8e3;
+  border-radius: 18px;
   overflow: hidden;
-
-  transition:
-    transform .3s ease,
-    box-shadow .3s ease,
-    border-color .3s ease;
+  transition: .3s ease;
 }
 
 .why-card:hover {
   transform: translateY(-7px);
-  border-color: #d9a441;
-  box-shadow:
-    0 18px 40px rgba(16,32,31,.10);
+  box-shadow: 0 18px 40px rgba(0,0,0,.08);
 }
 
 .why-number {
   position: absolute;
-
   top: 22px;
   right: 25px;
-
   font-size: 11px;
   font-weight: 700;
-
-  letter-spacing: 1.5px;
-
-  color: #b5bbb8;
+  letter-spacing: 1px;
+  color: #9aa3a1;
 }
 
 .why-icon {
-  width: 46px;
-  height: 46px;
-
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  margin-bottom: 25px;
-
+  margin-bottom: 28px;
   border-radius: 50%;
-
-  background: #10201f;
+  background: #f0f1ed;
   color: var(--accent);
-
-  font-size: 17px;
+  font-size: 20px;
   font-weight: 700;
 }
 
 .why-card h3 {
-  margin: 0 0 9px;
-
   font-family: "Playfair Display", serif;
-
-  font-size: 25px;
-  line-height: 1.2;
+  font-size: 24px;
+  margin: 0 0 10px;
 }
 
 .why-card p {
-  margin: 0;
-
-  color: #697573;
-
+  color: #6a7775;
   font-size: 14px;
-  line-height: 1.7;
+  margin: 0;
 }
 
 
@@ -675,44 +651,184 @@ a {
 
 
 /* =========================================
-   CONTACT
+   PREMIUM CONTACT + LOCATION
    ========================================= */
 
-.contact-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 90px;
+.contact-heading {
+  max-width: 700px;
+  margin-bottom: 55px;
 }
 
-.contact-card {
+.contact-heading h2 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(38px, 4vw, 58px);
+  line-height: 1.08;
+  margin: 10px 0 15px;
+}
+
+.contact-heading p {
+  color: #697573;
+  max-width: 600px;
+}
+
+.contact-location-grid {
+  display: grid;
+  grid-template-columns: .85fr 1.15fr;
+  gap: 30px;
+  align-items: stretch;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contact-info-card {
   background: white;
   border: 1px solid #e5e8e3;
-  border-radius: 18px;
-  padding: 10px;
+  border-radius: 16px;
+  padding: 22px 24px;
+  transition: .25s ease;
 }
 
-.contact-card > a,
-.contact-card > div {
+.contact-info-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0,0,0,.06);
+}
+
+.contact-info-card > span {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.8px;
+  color: #8a9492;
+  margin-bottom: 8px;
+}
+
+.contact-info-card a {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.contact-info-card strong {
+  font-size: 15px;
+  color: #182322;
+}
+
+.contact-info-card a:hover strong {
+  color: var(--primary);
+}
+
+.contact-arrow {
+  color: var(--accent);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.contact-location-note {
+  display: block;
+  margin-top: 5px;
+  color: #7b8583;
+  font-size: 12px;
+}
+
+.contact-hours {
+  margin-top: 4px;
+  padding: 24px;
+  border-radius: 16px;
+  background: var(--dark);
+  color: white;
+  display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 20px;
-  padding: 20px;
-  border-bottom: 1px solid #eceeea;
 }
 
-.contact-card > a:last-child {
-  border: 0;
+.contact-hours span {
+  display: block;
+  font-size: 10px;
+  letter-spacing: 1.8px;
+  color: #ffffff70;
+  margin-bottom: 7px;
 }
 
-.contact-card span {
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  color: #8a9492;
-}
-
-.contact-card strong {
+.contact-hours strong {
   font-size: 14px;
+}
+
+.hours-status {
+  font-size: 22px;
+  color: #7ee0a8;
+}
+
+.contact-map-card {
+  background: #f0f1ed;
+  border: 1px solid #e0e3de;
+  border-radius: 20px;
+  padding: 12px;
+  overflow: hidden;
+}
+
+.map-header {
+  padding: 20px 18px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.map-header h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 28px;
+  margin: 7px 0 0;
+}
+
+.map-pin {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  font-size: 20px;
+}
+
+.map-frame {
+  height: 390px;
+  border-radius: 15px;
+  overflow: hidden;
+  background: #ddd;
+}
+
+.map-frame iframe {
+  display: block;
+}
+
+.map-button {
+  margin: 12px 0 0;
+  padding: 16px 20px;
+  border-radius: 12px;
+  background: var(--dark);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 700;
+  transition: .2s;
+}
+
+.map-button:hover {
+  transform: translateY(-2px);
+}
+
+.map-button span {
+  color: var(--accent);
+  font-size: 18px;
 }
 
 
@@ -761,7 +877,7 @@ footer {
 }
 
 
-/* Service, Review & Why Us cards */
+/* Service & Review cards */
 
 .service.reveal,
 .review.reveal,
@@ -780,9 +896,7 @@ footer {
 }
 
 .why-card.reveal.show:hover {
-  transform:
-    translateY(-7px)
-    scale(1);
+  transform: translateY(-7px) scale(1);
 }
 
 
@@ -809,7 +923,6 @@ footer {
     font-size: 50px;
   }
 
-
   /* Stats */
 
   .stats {
@@ -824,12 +937,8 @@ footer {
 
   .stats .stat {
     padding: 18px 8px;
-
-    border-right:
-      1px solid rgba(255,255,255,.12);
-
-    border-bottom:
-      1px solid rgba(255,255,255,.12);
+    border-right: 1px solid rgba(255,255,255,.12);
+    border-bottom: 1px solid rgba(255,255,255,.12);
   }
 
   .stats .stat:nth-child(2) {
@@ -875,18 +984,6 @@ footer {
   .service-grid,
   .review-grid {
     grid-template-columns: 1fr;
-  }
-
-
-  /* Why Choose Us */
-
-  .why-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .why-card {
-    min-height: auto;
-    padding: 27px;
   }
 
 
@@ -939,8 +1036,7 @@ footer {
   /* Mobile reveal */
 
   .reveal {
-    transform:
-      translateY(35px);
+    transform: translateY(35px);
   }
 
   .service.reveal,
@@ -951,16 +1047,42 @@ footer {
       scale(.99);
   }
 
-  .why-card.reveal.show {
-    transform:
-      translateY(0)
-      scale(1);
+  /* Why Choose Us */
+
+  .why-grid {
+    grid-template-columns: 1fr;
   }
 
-  .why-card.reveal.show:hover {
-    transform:
-      translateY(-5px)
-      scale(1);
+  .why-card {
+    min-height: auto;
+    padding: 27px;
+  }
+
+  /* Premium Contact */
+
+  .contact-location-grid {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .contact-heading {
+    margin-bottom: 35px;
+  }
+
+  .contact-map-card {
+    padding: 10px;
+  }
+
+  .map-frame {
+    height: 330px;
+  }
+
+  .map-header {
+    padding: 18px 12px;
+  }
+
+  .map-header h3 {
+    font-size: 24px;
   }
 
 }
