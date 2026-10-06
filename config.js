@@ -44,7 +44,7 @@ services: [
     image: "wedding cars rentals.jpeg"
   },
   {
-    icon: "🚗",
+    icon: "🚕",
     title: "Four-Wheeler Rentals",
     text: "Choose from a range of four-wheelers for personal trips, family travel and special occasions.",
     image: "Glossy Honda at Lazarus Travelmate.png"
@@ -58,7 +58,7 @@ services: [
   {
   icon: "🚌",
   title: "Traveller & Bus Services",
-  text: "Comfortable Traveller and bus services available in 4, 17, 19, 32 and 49 seat options for group trips, tours, weddings and special occasions.",
+  text: "Comfortable Traveller and bus services available in 14, 17, 19, 32 and 49 seat options for group trips, tours, weddings and special occasions.",
   image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=85"
 }
 ],
