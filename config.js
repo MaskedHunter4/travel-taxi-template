@@ -54,7 +54,13 @@ services: [
     title: "Customized Tour Packages",
     text: "Personalized travel packages designed around your destination, schedule and travel preferences.",
     image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?auto=format&fit=crop&w=1000&q=80"
-  }
+  },
+  {
+  icon: "🚌",
+  title: "Traveller & Bus Services",
+  text: "Comfortable Traveller and bus services available in 4, 17, 19, 32 and 49 seat options for group trips, tours, weddings and special occasions.",
+  image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=85"
+}
 ],
 
   gallery: [
