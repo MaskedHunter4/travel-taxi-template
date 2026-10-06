@@ -63,7 +63,7 @@ services: [
 }
 ],
   
-aboutImage: "about-photo.jpg",
+aboutImage: "696557916_18125642512537428_729535133106598067_n.webp",
 
   gallery: [
     "726610547_18131186422537428_2342233915642130346_n.webp",
