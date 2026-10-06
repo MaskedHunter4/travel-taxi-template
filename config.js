@@ -75,9 +75,9 @@ aboutImage: "696557916_18125642512537428_729535133106598067_n.webp",
   ],
 
   testimonials: [
+    ["“Our 10-day trip from Kochi to Vagamon and Munnar was a wonderful experience with LAZARUS TRAVELMATE. The journey was comfortable, well organised and smooth from start to finish. We truly enjoyed the beautiful places in Kerala and appreciated the care and support throughout our trip. Highly recommended for a comfortable and memorable Kerala journey.”", "Hawra Abu Oasis", "Saudi Arabia"],
     ["“The pickup was perfectly on time and the vehicle was spotless. Everything felt simple from booking to drop-off.”", "Anu Thomas", "Kochi"],
-    ["“We used the service for a family trip through Kerala. The driver was courteous and the route planning was excellent.”", "Michael James", "United Kingdom"],
-    ["“Very easy to communicate with and the whole journey was comfortable. We would happily book again.”", "Riya Menon", "Bengaluru"]
+    ["“Lazarus Travelmate-ന്റെ service വളരെ നല്ല അനുഭവമായിരുന്നു. യാത്രയ്ക്ക് ആവശ്യമായ കാര്യങ്ങൾ കൃത്യമായി arrange ചെയ്തു തന്നു. Driver-ന്റെ പെരുമാറ്റവും യാത്രയിലെ comfort-ഉം വളരെ നല്ലതായിരുന്നു. Family ആയി യാത്ര ചെയ്യാൻ വിശ്വസിച്ച് തിരഞ്ഞെടുക്കാവുന്ന service ആണ്.”", "Arun & Family", "Bengaluru"]
   ],
 
   faqs: [
