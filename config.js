@@ -66,8 +66,8 @@ services: [
 aboutImage: "696557916_18125642512537428_729535133106598067_n.webp",
 
   gallery: [
-    "726610547_18131186422537428_2342233915642130346_n.webp",
-    "755809950_18136093183537428_2299009348354147895_n.webp",
+    "plans vagamon.jpeg",
+    "plans.jpeg",
     "https://images.unsplash.com/photo-1470214304380-aadaedcfff1b?auto=format&fit=crop&w=1200&q=80",
     "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
     "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=1200&q=80",
