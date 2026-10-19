@@ -35,7 +35,7 @@ services: [
     icon: "✈",
     title: "Airport Taxi Services",
     text: "Reliable airport pickup and drop services with comfortable vehicles and professional coordination.",
-    image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1000&q=80"
+    image: "Delhi Airport Taxi Service _ Reliable Airport Cab in Delhi NCR.jfif"
   },
   {
     icon: "♥",
