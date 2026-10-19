@@ -59,7 +59,7 @@ services: [
   icon: "🚌",
   title: "Traveller & Bus Services",
   text: "Comfortable Traveller and bus services available in 14, 17, 19, 32 and 49 seat options for group trips, tours, weddings and special occasions.",
-  image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=85"
+  image: "Tropical Highway Coaches at Golden Hour.png"
 }
 ],
   
